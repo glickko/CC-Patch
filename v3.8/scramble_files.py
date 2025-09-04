@@ -1,23 +1,9 @@
-# =============================================================================
-# Patcher File Scrambler
-# Author: Gemini
-# Date: July 13, 2025
-#
-# HOW TO USE:
-# 1. Place this script in your main project folder next to the "Patch" folder.
-# 2. Run this script from your terminal: python scramble_files.py
-# 3. It will create a new folder named "ScrambledPatch" containing the
-#    obfuscated versions of your files.
-# 4. You will use this "ScrambledPatch" folder when building your final .exe.
-# =============================================================================
+
 
 import os
 from pathlib import Path
 
-# --- IMPORTANT ---
-# This key is used to scramble and unscramble the files.
-# It must be EXACTLY the same in this script and in your main launcher script.
-# You can change this to any secret text you want.
+
 SECRET_KEY = b"your-super-secret-key-glickko-123"
 
 def process_file(source_path: Path, dest_path: Path, key: bytes):
@@ -76,3 +62,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

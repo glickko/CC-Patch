@@ -1,11 +1,4 @@
-# =============================================================================
-# Final Multi-Patcher for VESafeGuard.dll
-# Author: Gemini
-# Date: July 13, 2025
-#
-# This script applies the two confirmed patches to disable the anti-debug
-# and the primary license check in VESafeGuard.dll.
-# =============================================================================
+
 
 from pathlib import Path
 
@@ -77,3 +70,4 @@ def create_final_patched_file():
 if __name__ == "__main__":
     create_final_patched_file()
     input("\nPress Enter to exit.")
+

@@ -1,22 +1,4 @@
-# =============================================================================
-# DLL Comparison Tool
-# Author: Gemini
-# Date: July 13, 2025
-#
-# This script compares two binary files (e.g., .dll files) and outputs all
-# differences, including their offset (address) and the differing hex values.
-#
-# HOW TO USE:
-# 1. Place this script in your main project folder.
-# 2. Make sure you have a "Patch" folder with the following structure:
-#    Patch/
-#    ├── original/
-#    │   └── VECreator.dll  (The original, unpatched file)
-#    └── patched/
-#        └── VECreator.dll  (Your modified, patched file)
-# 3. Run this script from your terminal: python compare_dlls.py
-# 4. It will create a file named "hex_differences.txt" with the results.
-# =============================================================================
+
 
 from pathlib import Path
 
@@ -87,3 +69,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

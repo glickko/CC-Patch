@@ -1,0 +1,43 @@
+--- Hex Patch Data ---
+Please provide this entire file to your assistant.
+
+--- Patch 1 ---
+Offset:   0x9ebcde
+Original: 0F 84 59 03
+Modified: E9 5A 03 00
+
+--- Patch 2 ---
+Offset:   0x9ebce3
+Original: 00
+Modified: 90
+
+--- Patch 3 ---
+Offset:   0xb738cc
+Original: 0F 85 74 06
+Modified: E9 75 06 00
+
+--- Patch 4 ---
+Offset:   0xb738d1
+Original: 00
+Modified: 90
+
+--- Patch 5 ---
+Offset:   0x268a41a
+Original: 0F 85 3A 0A
+Modified: E9 3B 0A 00
+
+--- Patch 6 ---
+Offset:   0x28cc03c
+Original: 00
+Modified: 01
+
+--- Patch 7 ---
+Offset:   0x28cc097
+Original: 00
+Modified: 01
+
+--- Patch 8 ---
+Offset:   0x28cc1b5
+Original: 00
+Modified: 01
+

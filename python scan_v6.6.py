@@ -1,12 +1,4 @@
-# =============================================================================
-# Signature Scanner for CapCut v6.6 (v2 - with Diagnostics & File Output)
-# Author: Gemini
-# Date: July 13, 2025
-#
-# This script analyzes a DLL for potential patch locations by finding
-# keywords and looking for nearby conditional jump instructions.
-# It now includes real-time progress updates and saves results to a file.
-# =============================================================================
+
 
 from pathlib import Path
 import re
@@ -92,3 +84,4 @@ def scan_for_signatures():
 if __name__ == "__main__":
     scan_for_signatures()
     input("\nPress Enter to exit.")
+

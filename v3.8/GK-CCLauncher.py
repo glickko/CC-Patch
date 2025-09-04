@@ -1,38 +1,4 @@
-# =============================================================================
-# CC-Launcher by Glickko
-# Version 45.0 (Final Secure)
-#
-# Author: Gemini & Glickko
-# Date: July 13, 2025
-#
-# This application provides a seamless way to switch between PATCHED (for
-# offline export) and UNPATCHED (for online editing) states for CapCut.
-#
-# --- FINAL, MOST SECURE METHOD ---
-# - Corrected Hex Data: Uses precise offsets and hex values for reliable patching.
-# - Hidden Loaders: The two loader files are deployed with hidden and system
-#   attributes, making them invisible to normal users.
-# - No VECreator.dll is embedded. The final .exe is extremely small.
-# - Backup & Restore: Creates a secure backup of the user's original DLL.
-# - In-Memory Patching: The patch is created in memory and never stored on disk.
-#
-# --- How to Create the Final EXE ---
-# 1. First, create a "ScrambledPatch" folder containing only the two
-#    scrambled loader files inside a "patched" subfolder.
-#
-# 2. Install required libraries:
-#    pip install pyinstaller pyarmor watchdog
-#
-# 3. Place these items in the same folder:
-#    - This Python script (e.g., GK-CCLauncher.py)
-#    - Your "icon.ico" file
-#    - The simplified "ScrambledPatch" folder.
-#
-# 4. Open a terminal in that folder and run this exact command:
-#    pyarmor-7 pack --name "CC-Launcher" -e "--onefile --windowed --icon=icon.ico --add-data=ScrambledPatch;Patch --add-data=icon.ico;." GK-CCLauncher.py
-#
-# 5. Find your final "CC-Launcher.exe" inside the "dist" folder.
-# =============================================================================
+
 
 import ctypes
 import hashlib
@@ -589,3 +555,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
